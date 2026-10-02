@@ -1,0 +1,17 @@
+[package]
+name = "jetson-multimedia"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.77"
+description = "Rust bindings to NVIDIA Jetson's multimedia libraries: NvBufSurface dmabufs, VIC transforms and NVJPG hardware JPEG encode"
+license = "MIT"
+repository = "https://github.com/jeff-hykin/jetson-multimedia"
+readme = "README.md"
+keywords = ["jetson", "nvidia", "jpeg", "nvbufsurface", "l4t"]
+categories = ["hardware-support", "multimedia::images", "api-bindings"]
+
+[dependencies]
+libloading = "0.8"
+
+[dev-dependencies]
+jpeg-decoder = "0.3"
